@@ -10,8 +10,6 @@
 
 const username = "JackOfAllTrades";
 const userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i;
-//solution #2
-//const userCheck = /^[a-z]([0-9]{2,}|[a-z]+\d*)$/i;
+//solution #2 const userCheck = /^[a-z]([0-9]{2,}|[a-z]+\d*)$/i;
 const result = userCheck.test(username);
 console.log(result)
-
